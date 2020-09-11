@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <display-name>springframework</display-name>
+    <!--
+        <context-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring/applicationContext.properties</param-value>
+        </context-param>-->
+
+    <!--&lt;!&ndash; 欢迎页面 &ndash;&gt;-->
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>index.jsp</welcome-file>-->
+    <!--</welcome-file-list>-->
+    <!--&lt;!&ndash; 欢迎页面 &ndash;&gt;-->
+
+
+    <!--&lt;!&ndash; url-pattern的意思是所有的.do文件都会经过TestServlet处理。 &ndash;&gt;-->
+    <!--<servlet>-->
+        <!--<servlet-name>spring-servlet</servlet-name>-->
+        <!--<servlet-class>org.firewater.springmvc.dispathcer.FireWaterDispatcherV2</servlet-class>-->
+        <!--<init-param>-->
+            <!--<param-name>contextConfigLocation</param-name>-->
+            <!--<param-value>/spring/applicationContext.properties</param-value>-->
+        <!--</init-param>-->
+        <!--<load-on-startup>1</load-on-startup>-->
+    <!--</servlet>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>spring-servlet</servlet-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</servlet-mapping>-->
+</web-app>
